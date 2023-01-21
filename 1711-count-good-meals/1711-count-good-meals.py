@@ -1,17 +1,17 @@
 import collections
 class Solution:
     def countPairs(self, deliciousness: List[int]) -> int:
-        #make an array that 
+        #make an array with the power of 2's
         arr=[0]*22
         for i in range(22):
             arr[i] = 2**i
-        #count how many foods there are
+        #count the repetition of foods with same deliciousness 
         d = collections.Counter(deliciousness)
         tot=0
         #
         s=set(deliciousness)
-        print(s)
-        print(d)
+        # print(s)
+        # print(d)
         #set of deliciousness
         for i in deliciousness:
             d[i]-= 1
