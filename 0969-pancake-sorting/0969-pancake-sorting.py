@@ -5,11 +5,11 @@ def checkArrEqual(arr1, arr2):
             return False
     return True
 def findMaxIndex(arr):
-    max=0
+    maxN=0
     for i in range(len(arr)):
-        if arr[i]>arr[max]:
-            max=i
-    return max
+        if arr[i]>arr[maxN]:
+            maxN=i
+    return maxN
 
 def reverseArr(arr):
     end = len(arr)-1
