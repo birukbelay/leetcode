@@ -6,7 +6,7 @@ class Solution:
         l,r=0,len(skill)-1
         tot=0
         pt=skill[0] + skill[-1]
-        while l<=r:
+        while l<r:
             # print(l, skill[l], skill[r] )
             if skill[l] + skill[r] == pt:
                 tot+= (skill[l] * skill[r])
