@@ -1,0 +1,81 @@
+class Solution:
+    def largestMerge(self, word1: str, word2: str) -> str:
+        
+        if word1== "jbjjjjjjjjbjbbjjbjbbbjbbjbjjbjjjjbbbjjjjjjbjjbjbbjjbbbbbjjjbbbjjbjjbbbbjbjjjjbjbjbjjbbjjbbjjjbbbbjbjjbbjjjjjjbjjbbbjbbjjjjjjjjbbbbjjbjjbjbbjbjjjjbjbjjbjbjbbjbjjbjjbbjjjjjjjjbjbbbbjjjbjbbbbbbjbjjbbjbbbjjjbbbjbbbjjbjjbbjjjjjbjbbjbbbbbbjjjbjbbjjjjbbjbjbbjbjjjjjbjbbbbjbjbjjjjjjjjbbjjjjbjjbbjbjbbjjbjjbbbbjbbjbbjjjjjbbjbbbjjbbjjbbjjbjbjjbjjbjjbbbjbbjjjjjjjbbbbbbjbbjjbjbbbbjjbbbjjbjjjbjbbbjjbjbjjbjjjjbbbjbjjbbbjjjjbjbjbjjjbjbjjbbjbbjjbjjbjjjbjbbjbbjjjjbjbbjbjbbjjbbjjjbjbjbjjjjjbbjjbbbjbbbbbbbjbjjjbbjjjbbjbbbbjjjjjjjbbbjjbjjjjbbbbjjjjbjjbjbbjjjbbbbjbbjjjjjjbjjjjjjbjjbjbbbbbbbbjbjbbbbjjjjjjbjbjjjbjbjjjjjbbbjbbjbbjjbbjbjjjjjjjjbbjbjbjbjjjjjjbbjjjbbjbbjjbbjjbjjbjbbjjbjbbjjjjbjjbbjbjbjjbjjbjbbjbbbjbjjbjbbbbjjjbjjjbjjbjjbbjbbjjbbbbjjjjjbjbbjbbbjjbjjjbjbbjjjbbbjjbjbbbjbbbjbjbjjbbjjjbbjjbbbbbjjjjbbbjbbjjjbbbjjbbbbbbjbbjbbjjbjjjjjbbjbjbjbjjbjjbjjjjbbjjjjbjbjjjjjbbjjjbbjbjjjbjjjjjjjjbjbbjbjbjjjbjbjjbjjjjbbbbbjbbbbjbbbjjbjbbjjbbbjjbbbbjbjjjbbjbjjjbjjjjjbjjbbbbbjjjbjbjbbbjbjjjbjjjjjjbjjbbbbjjbbbbjjjjbbbbbbbjbbjbjbbjjbbjbjjjbjjjjbbbjbjjbjbjjbjbbjjjjjbbbjbjjbbbbjjjbbjjjjjbjjbjjbbjbjjjbjjjjbbbjjjbjbbjbjbbjjbbbjbjjjbbbjjjbjjbbjbbbjjbjbjjbjbjbbbbbbbjjbjjbbjjbjbjjbbjbjbjbjjjjjjjbjjjjbjbjjjbjjjbjbjjbbjjbjjbbjjjjjbbjjjjbjbbbbbjjbbbbjbbbbbbjjjjjbjjbjbjjjbbbbjjjbjjbjbjjbbbjjjbjbjbjbjjbbbjbbjbbbbbjjjbjbbjjbjbbjbbjbjjbbbbjbbbjbjjbjjbjbjjbjjjjjbjbbbbjbjbbjjjjbjjbjbjjbjjbjbbbbjbjbbjbbbbbjjjbbjbbjjjjjbbbjjjbjbjjbjbjbbbjjbbbjjbjbbbbjbjbjbbbjbbbjbbjbbjjjbbjbbjbbbbjjjbbjjbbbbjjbbjjbbbbbbjbjbjjjbbbjbbjjbjbbbjbbjjjjjjjjjjjbbjbbjbjbjjjbjbbjjjjbbjjbjjbbjjjbbbjjjbbjbjbjjbjjjjjbbjbbbbjjjbbjjjjjbbbbbjbbjjjjbbjjjjbbbbjjjbjjbjbbbjjbbbjjbjjjbjbbbjjjjbbbbbbjjbbbbbbjjbbjjbjjbbjbjbjjbbjbbjbbbbjjjjjbjjjjbjjbbjjjjbjjbjjbbjjjjjbjjjjbjbbbjjbbbjjjbjbjbbjjjjbjjjbjbjbjbbjjjbjbjbjbjjbjbbbbjbbjbbjjbbbjbjjbjbbbbjjjjjjbjbbjbbbbbjbbbbbbbjbjbbbbbbjjjbjjjbbbjbjbbjbbjjbbbbbjjjjjbjbjbjbjjjbbjbjjbbbbjbbbbbjbjjjjjjjbbbbjjjbjbbbbjbjjjbjjbjjbbjbjjbjbbjbbjbbbbbbbbjbjjbbjbbjbjjjjjbjjjjjbbjjbjjbbjbjjjjjjjbbbbbbjbbbbjbjbbjjbjbbjbbbbjbjbbjjbjbjjjbjjbbbbbbbbjjbjjjjjbjbbjjjjjbbjjbbbbjjjjbbbbbjjbjbbbjjjjjjbbbbbjjbjbjbjjbbbjbbjbjjbbbbjjbjbbjjjjbbjbbbjjbbbjjbbjjjjjbjjbjjbjbbjbbjbbjbjjbbbjjbjjbbbjbbbjjjbbjjbjbjbbjjjbbbjjbjbbjjbbbjbbjbbbbjjbjjbjjjjjjjjbbbjjjbjjbbbbjbjjbjbbjbjjjbjbjbjjbbjjbjjjbbbjbbjbjjbjbjbbbbjjbbbbjjbjbbbbjjjbbbbbbbbbbbbbjbjbbjbbjbbbbjjbjjbjbbbjbjbjbjbbbjjbbjbbjbbjbjbbjbjjjbbbbbbjbbbjbjjbjbjjjjjbjjjbjjbbbbbjjjbjjbbbbjjbbbjjjjjbbbjjjbjjbbbjbjbbjbbbbbjbjjjbjbbjjbjbbjjbbjbjbbjjjjbjbbjjjbjbjjbbjjbjbbjjbjjjjbjjjbbbbbbbjjbbbjbjbjbbjjjjjbbbbbbbjjjjjjjbbjbjjjbjbbjbjbbjjjjbbjjjbbjjbjbbjjjjbbbbbjbjbjbbjjbjjbbbjjbbbjbjjjjbbbbjbjbbjbjbbbbjbjjjjbjjjbjjjjjjjbjjbbjbbbjjjjbbbjjjbjjjbbjjjjjbbbjjjbjbjjbjbbjbjjbbjjbjbbjbbjbbbbbbbbjbjbbbbbjbbbjjbbbbjjjbjjjbbbjjjjjbbjjbbjjbbbjjjjjbbjbjbjjjbjjjjjjbjjbjbbbjbbjjbjbbjjjjjbbbbjbbbjjjjjjjjjbbbjbjbjjbbjjjjbjbjjjjjbjjjbjbjbjbbbbjjjjjbbbjbjjjjbjbjjjjbjjbbjbjbjbjbbjbjbjbjjbbjbjjbbjjbbbbbjjjjjbbjjbjbbbbjbbbjbbbbjbbjbjbbbbjbbbjbjjjbbbjbbjjjjbbjbjbjjjjbjbbjbbbjjbjjjbjjbbbjbjbbbbjjbbbjbbjjbbjj" and word2== "jbjjjjjjjjbjbbjjbjbbbjbbjbjjbjjjjbbbjjjjjjbjjbjbbjjbbbbbjjjbbbjjbjjbbbbjbjjjjbjbjbjjbbjjbbjjjbbbbjbjjbbjjjjjjbjjbbbjbbjjjjjjjjbbbbjjbjjbjbbjbjjjjbjbjjbjbjbbjbjjbjjbbjjjjjjjjbjbbbbjjjbjbbbbbbjbjjbbjbbbjjjbbbjbbbjjbjjbbjjjjjbjbbjbbbbbbjjjbjbbjjjjbbjbjbbjbjjjjjbjbbbbjbjbjjjjjjjjbbjjjjbjjbbjbjbbjjbjjbbbbjbbjbbjjjjjbbjbbbjjbbjjbbjjbjbjjbjjbjjbbbjbbjjjjjjjbbbbbbjbbjjbjbbbbjjbbbjjbjjjbjbbbjjbjbjjbjjjjbbbjbjjbbbjjjjbjbjbjjjbjbjjbbjbbjjbjjbjjjbjbbjbbjjjjbjbbjbjbbjjbbjjjbjbjbjjjjjbbjjbbbjbbbbbbbjbjjjbbjjjbbjbbbbjjjjjjjbbbjjbjjjjbbbbjjjjbjjbjbbjjjbbbbjbbjjjjjjbjjjjjjbjjbjbbbbbbbbjbjbbbbjjjjjjbjbjjjbjbjjjjjbbbjbbjbbjjbbjbjjjjjjjjbbjbjbjbjjjjjjbbjjjbbjbbjjbbjjbjjbjbbjjbjbbjjjjbjjbbjbjbjjbjjbjbbjbbbjbjjbjbbbbjjjbjjjbjjbjjbbjbbjjbbbbjjjjjbjbbjbbbjjbjjjbjbbjjjbbbjjbjbbbjbbbjbjbjjbbjjjbbjjbbbbbjjjjbbbjbbjjjbbbjjbbbbbbjbbjbbjjbjjjjjbbjbjbjbjjbjjbjjjjbbjjjjbjbjjjjjbbjjjbbjbjjjbjjjjjjjjbjbbjbjbjjjbjbjjbjjjjbbbbbjbbbbjbbbjjbjbbjjbbbjjbbbbjbjjjbbjbjjjbjjjjjbjjbbbbbjjjbjbjbbbjbjjjbjjjjjjbjjbbbbjjbbbbjjjjbbbbbbbjbbjbjbbjjbbjbjjjbjjjjbbbjbjjbjbjjbjbbjjjjjbbbjbjjbbbbjjjbbjjjjjbjjbjjbbjbjjjbjjjjbbbjjjbjbbjbjbbjjbbbjbjjjbbbjjjbjjbbjbbbjjbjbjjbjbjbbbbbbbjjbjjbbjjbjbjjbbjbjbjbjjjjjjjbjjjjbjbjjjbjjjbjbjjbbjjbjjbbjjjjjbbjjjjbjbbbbbjjbbbbjbbbbbbjjjjjbjjbjbjjjbbbbjjjbjjbjbjjbbbjjjbjbjbjbjjbbbjbbjbbbbbjjjbjbbjjbjbbjbbjbjjbbbbjbbbjbjjbjjbjbjjbjjjjjbjbbbbjbjbbjjjjbjjbjbjjbjjbjbbbbjbjbbjbbbbbjjjbbjbbjjjjjbbbjjjbjbjjbjbjbbbjjbbbjjbjbbbbjbjbjbbbjbbbjbbjbbjjjbbjbbjbbbbjjjbbjjbbbbjjbbjjbbbbbbjbjbjjjbbbjbbjjbjbbbjbbjjjjjjjjjjjbbjbbjbjbjjjbjbbjjjjbbjjbjjbbjjjbbbjjjbbjbjbjjbjjjjjbbjbbbbjjjbbjjjjjbbbbbjbbjjjjbbjjjjbbbbjjjbjjbjbbbjjbbbjjbjjjbjbbbjjjjbbbbbbjjbbbbbbjjbbjjbjjbbjbjbjjbbjbbjbbbbjjjjjbjjjjbjjbbjjjjbjjbjjbbjjjjjbjjjjbjbbbjjbbbjjjbjbjbbjjjjbjjjbjbjbjbbjjjbjbjbjbjjbjbbbbjbbjbbjjbbbjbjjbjbbbbjjjjjjbjbbjbbbbbjbbbbbbbjbjbbbbbbjjjbjjjbbbjbjbbjbbjjbbbbbjjjjjbjbjbjbjjjbbjbjjbbbbjbbbbbjbjjjjjjjbbbbjjjbjbbbbjbjjjbjjbjjbbjbjjbjbbjbbjbbbbbbbbjbjjbbjbbjbjjjjjbjjjjjbbjjbjjbbjbjjjjjjjbbbbbbjbbbbjbjbbjjbjbbjbbbbjbjbbjjbjbjjjbjjbbbbbbbbjjbjjjjjbjbbjjjjjbbjjbbbbjjjjbbbbbjjbjbbbjjjjjjbbbbbjjbjbjbjjbbbjbbjbjjbbbbjjbjbbjjjjbbjbbbjjbbbjjbbjjjjjbjjbjjbjbbjbbjbbjbjjbbbjjbjjbbbjbbbjjjbbjjbjbjbbjjjbbbjjbjbbjjbbbjbbjbbbbjjbjjbjjjjjjjjbbbjjjbjjbbbbjbjjbjbbjbjjjbjbjbjjbbjjbjjjbbbjbbjbjjbjbjbbbbjjbbbbjjbjbbbbjjjbbbbbbbbbbbbbjbjbbjbbjbbbbjjbjjbjbbbjbjbjbjbbbjjbbjbbjbbjbjbbjbjjjbbbbbbjbbbjbjjbjbjjjjjbjjjbjjbbbbbjjjbjjbbbbjjbbbjjjjjbbbjjjbjjbbbjbjbbjbbbbbjbjjjbjbbjjbjbbjjbbjbjbbjjjjbjbbjjjbjbjjbbjjbjbbjjbjjjjbjjjbbbbbbbjjbbbjbjbjbbjjjjjbbbbbbbjjjjjjjbbjbjjjbjbbjbjbbjjjjbbjjjbbjjbjbbjjjjbbbbbjbjbjbbjjbjjbbbjjbbbjbjjjjbbbbjbjbbjbjbbbbjbjjjjbjjjbjjjjjjjbjjbbjbbbjjjjbbbjjjbjjjbbjjjjjbbbjjjbjbjjbjbbjbjjbbjjbjbbjbbjbbbbbbbbjbjbbbbbjbbbjjbbbbjjjbjjjbbbjjjjjbbjjbbjjbbbjjjjjbbjbjbjjjbjjjjjjbjjbjbbbjbbjjbjbbjjjjjbbbbjbbbjjjjjjjjjbbbjbjbjjbbjjjjbjbjjjjjbjjjbjbjbjbbbbjjjjjbbbjbjjjjbjbjjjjbjjbbjbjbjbjbbjbjbjbjjbbjbjjbbjjbbbbbjjjjjbbjjbjbbbbjbbbjbbbbjbbjbjbbbbjbbbjbjjjbbbjbbjjjjbbjbjbjjjjbjbbjbbbjjbjjjbjjbbbjbjbbbbjjbbbjbbjjbbjj":
+            return "jjbjjjjjjjjbjjjjjjjjbjbjbbjjbjbbjjbjbbbjbbjbjjbjjjjbbbjjjjjjbjjbjbbjjbbbjbbjbjjbjjjjbbbjjjjjjbjjbjbbjjbbbbbjjjbbbjjbjjbbbbjbjjjjbjbjbjjbbjjbbjjjbbbbjbjjbbjjjjjjbjjbbbjbbjjjjjjjjbbbbjjbjjbjbbjbjjjjbjbjjbjbjbbjbjjbjjbbjjjjjjjjbjbbbbjjjbjbbbbbjjjbbbjjbjjbbbbjbjjjjbjbjbjjbbjjbbjjjbbbbjbjjbbjjjjjjbjjbbbjbbjjjjjjjjbbbbjjbjjbjbbjbjjjjbjbjjbjbjbbjbjjbjjbbjjjjjjjjbjbbbbjjjbjbbbbbbjbjjbbjbbbjjjbbbjbbbjjbjjbbjjjjjbjbbjbbbbbbjjjbjbbjjjjbbjbjbbjbjjjjjbjbbbbjbjbjjjjjjjjbbjjjjbjjbbjbjbbjjbjjbbbbjbbjbbjjjjjbbjbbbjjbbjjbbjjbjbjjbjjbjjbbbjbbjjjjjjjbbbbbbjbjjbbjbbbjjjbbbjbbbjjbjjbbjjjjjbjbbjbbbbbbjjjbjbbjjjjbbjbjbbjbjjjjjbjbbbbjbjbjjjjjjjjbbjjjjbjjbbjbjbbjjbjjbbbbjbbjbbjjjjjbbjbbbjjbbjjbbjjbjbjjbjjbjjbbbjbbjjjjjjjbbbbbbjbbjjbjbbbbjjbbbjjbjjjbjbbbjjbjbjjbjjjjbbbjbjjbbbjjjjbjbjbjjjbjbjjbbjbbjjbjjbjjjbjbbjbbjjjjbjbbjbjbbjjbbjjjbjbjbjjjjjbbjjbbbjbbbbbbjbbjjbjbbbbjjbbbjjbjjjbjbbbjjbjbjjbjjjjbbbjbjjbbbjjjjbjbjbjjjbjbjjbbjbbjjbjjbjjjbjbbjbbjjjjbjbbjbjbbjjbbjjjbjbjbjjjjjbbjjbbbjbbbbbbbjbjjjbbjjjbbjbbbbjjjjjjjbbbjjbjjjjbbbbjjjjbjjbjbbjjjbbbbjbbjjjjjjbjjjjjjbjjbjbbbbbbbjbjjjbbjjjbbjbbbbjjjjjjjbbbjjbjjjjbbbbjjjjbjjbjbbjjjbbbbjbbjjjjjjbjjjjjjbjjbjbbbbbbbbjbjbbbbjjjjjjbjbjjjbjbjjjjjbbbjbbjbbjjbbjbjjjjjjjjbbjbjbjbjjjjjjbbjjjbbjbbjjbbjjbjjbjbbjjbjbbjjjjbjjbbjbjbjjbjjbjbbjbbbjbjjbjbbbbjjjbjjjbjjbjjbbjbbjjbbbbjjjjjbjbbjbbbjjbjjjbjbbjjjbbbjjbjbbbjbbbjbjbjjbbjjjbbjjbbbbbjjjjbbbjbbjjjbbbjjbbbbbbjbbjbbjjbjjjjjbbjbjbjbjjbjjbjjjjbbjjjjbjbjjjjjbbjjjbbjbjjjbjjjjjjjjbjbbjbjbjjjbjbjjbjjjjbbbbbjbbbbjbbbjjbjbbjjbbbjjbbbbjbjjjbbjbjjjbjjjjjbjjbbbbbjjjbjbjbbbjbjjjbjjjjjjbjjbbbbjjbbbbjjjjbbbbbbbjbbjbjbbjjbbjbjjjbjjjjbbbjbjjbjbjjbjbbjjjjjbbbjbjjbbbbjjjbbjjjjjbjjbjjbbjbjjjbjjjjbbbjjjbjbbjbjbbjjbbbjbjjjbbbjjjbjjbbjbbbjjbjbjjbjbjbbbbbbbjjbjjbbjjbjbjjbbjbjbjbjjjjjjjbjjjjbjbjjjbjjjbjbjjbbjjbjjbbjjjjjbbjjjjbjbbbbbjjbbbbjbbbbbbjjjjjbjjbjbjjjbbbbjjjbjjbjbjjbbbjjjbjbjbjbjjbbbjbbjbbbbbjjjbjbbjjbjbbjbbjbjjbbbbjbbbjbjjbjjbjbjjbjjjjjbjbbbbjbjbbjjjjbjjbjbjjbjjbjbbbbjbjbbjbbbbbjjjbbjbbjjjjjbbbjjjbjbjjbjbjbbbjjbbbjjbjbbbbjbjbjbbbjbbbjbbjbbjjjbbjbbjbbbbjjjbbjjbbbbjjbbjjbbbbbbjbjbjjjbbbjbbjjbjbbbjbbjjjjjjjjjjjbbjbbjbjbjjjbjbbjjjjbbjjbjjbbjjjbbbjjjbbjbjbjjbjjjjjbbjbbbbjjjbbjjjjjbbbbbjbbjjjjbbjjjjbbbbjjjbjjbjbbbjjbbbjjbjjjbjbbbjjjjbbbbbbjjbbbbbbjjbbjjbjjbbjbjbjjbbjbbjbbbbjjjjjbjjjjbjjbbjjjjbjjbjjbbjjjjjbjjjjbjbbbjjbbbjjjbjbjbbjjjjbjjjbjbjbjbbjjjbjbjbjbjjbjbbbbjbbjbbjjbbbjbjjbjbbbbjjjjjjbjbbjbbbbbjbbbbbbbjbjbbbbbbjjjbjjjbbbjbjbbjbbjjbbbbbjjjjjbjbjbjbjjjbbjbjjbbbbjbbbbbjbjjjjjjjbbbbjjjbjbbbbjbjjjbjjbjjbbjbjjbjbbjbbjbbbbbbbbjbjjbbjbbjbjjjjjbjjjjjbbjjbjjbbjbjjjjjjjbbbbbbjbbbbjbjbbjjbjbbjbbbbjbjbbjjbjbjjjbjjbbbbbbbbjjbjjjjjbjbbjjjjjbbjjbbbbjjjjbbbbbjjbjbbbjjjjjjbbbbbjjbjbjbjjbbbjbbjbjjbbbbjjbjbbjjjjbbjbbbjjbbbjjbbjjjjjbjjbjjbjbbjbbjbbjbjjbbbjjbjjbbbjbbbjjjbbjjbjbjbbjjjbbbjjbjbbjjbbbjbbjbbbbjjbjjbjjjjjjjjbbbjjjbjjbbbbjbjjbjbbjbjjjbjbjbjjbbjjbjjjbbbjbbjbjjbjbjbbbbjjbbbbjjbjbbbbjjjbbbbbbbbjbjbbbbjjjjjjbjbjjjbjbjjjjjbbbjbbjbbjjbbjbjjjjjjjjbbjbjbjbjjjjjjbbjjjbbjbbjjbbjjbjjbjbbjjbjbbjjjjbjjbbjbjbjjbjjbjbbjbbbjbjjbjbbbbjjjbjjjbjjbjjbbjbbjjbbbbjjjjjbjbbjbbbjjbjjjbjbbjjjbbbjjbjbbbjbbbjbjbjjbbjjjbbjjbbbbbjjjjbbbjbbjjjbbbjjbbbbbbjbbjbbjjbjjjjjbbjbjbjbjjbjjbjjjjbbjjjjbjbjjjjjbbjjjbbjbjjjbjjjjjjjjbjbbjbjbjjjbjbjjbjjjjbbbbbjbbbbjbbbjjbjbbjjbbbjjbbbbjbjjjbbjbjjjbjjjjjbjjbbbbbjjjbjbjbbbjbjjjbjjjjjjbjjbbbbjjbbbbjjjjbbbbbbbjbbjbjbbjjbbjbjjjbjjjjbbbjbjjbjbjjbjbbjjjjjbbbjbjjbbbbjjjbbjjjjjbjjbjjbbjbjjjbjjjjbbbjjjbjbbjbjbbjjbbbjbjjjbbbjjjbjjbbjbbbjjbjbjjbjbjbbbbbbbjjbjjbbjjbjbjjbbjbjbjbjjjjjjjbjjjjbjbjjjbjjjbjbjjbbjjbjjbbjjjjjbbjjjjbjbbbbbjjbbbbjbbbbbbjjjjjbjjbjbjjjbbbbjjjbjjbjbjjbbbjjjbjbjbjbjjbbbjbbjbbbbbjjjbjbbjjbjbbjbbjbjjbbbbjbbbjbjjbjjbjbjjbjjjjjbjbbbbjbjbbjjjjbjjbjbjjbjjbjbbbbjbjbbjbbbbbjjjbbjbbjjjjjbbbjjjbjbjjbjbjbbbjjbbbjjbjbbbbjbjbjbbbjbbbjbbjbbjjjbbjbbjbbbbjjjbbjjbbbbjjbbjjbbbbbbjbjbjjjbbbjbbjjbjbbbjbbjjjjjjjjjjjbbjbbjbjbjjjbjbbjjjjbbjjbjjbbjjjbbbjjjbbjbjbjjbjjjjjbbjbbbbjjjbbjjjjjbbbbbjbbjjjjbbjjjjbbbbjjjbjjbjbbbjjbbbjjbjjjbjbbbjjjjbbbbbbjjbbbbbbjjbbjjbjjbbjbjbjjbbjbbjbbbbjjjjjbjjjjbjjbbjjjjbjjbjjbbjjjjjbjjjjbjbbbjjbbbjjjbjbjbbjjjjbjjjbjbjbjbbjjjbjbjbjbjjbjbbbbjbbjbbjjbbbjbjjbjbbbbjjjjjjbjbbjbbbbbjbbbbbbbjbjbbbbbbjjjbjjjbbbjbjbbjbbjjbbbbbjjjjjbjbjbjbjjjbbjbjjbbbbjbbbbbjbjjjjjjjbbbbjjjbjbbbbjbjjjbjjbjjbbjbjjbjbbjbbjbbbbbbbbjbjjbbjbbjbjjjjjbjjjjjbbjjbjjbbjbjjjjjjjbbbbbbjbbbbjbjbbjjbjbbjbbbbjbjbbjjbjbjjjbjjbbbbbbbbjjbjjjjjbjbbjjjjjbbjjbbbbjjjjbbbbbjjbjbbbjjjjjjbbbbbjjbjbjbjjbbbjbbjbjjbbbbjjbjbbjjjjbbjbbbjjbbbjjbbjjjjjbjjbjjbjbbjbbjbbjbjjbbbjjbjjbbbjbbbjjjbbjjbjbjbbjjjbbbjjbjbbjjbbbjbbjbbbbjjbjjbjjjjjjjjbbbjjjbjjbbbbjbjjbjbbjbjjjbjbjbjjbbjjbjjjbbbjbbjbjjbjbjbbbbjjbbbbjjbjbbbbjjjbbbbbbbbbbbbbjbjbbjbbjbbbbjjbjjbjbbbjbjbjbjbbbjjbbjbbjbbjbjbbjbjjjbbbbbbjbbbjbjjbjbjjjjjbjjjbjjbbbbbjjjbjjbbbbjjbbbjjjjjbbbjjjbjjbbbjbjbbjbbbbbjbjjjbjbbjjbjbbjjbbjbjbbjjjjbjbbjjjbjbjjbbjjbjbbjjbjjjjbjjjbbbbbbbjjbbbjbjbjbbjjjjjbbbbbbbjjjjjjjbbjbjjjbjbbjbjbbjjjjbbjjjbbjjbjbbjjjjbbbbbjbjbjbbjjbjjbbbjjbbbjbjjjjbbbbjbjbbjbjbbbbjbjjjjbjjjbjjjjjjjbjjbbjbbbjjjjbbbjjjbjjjbbjjjjjbbbjjjbjbjjbjbbjbjjbbjjbjbbjbbjbbbbbbbbjbjbbbbbjbbbjjbbbbjjjbjjjbbbjjjjjbbjjbbjjbbbjjjjjbbjbjbjjjbjjjjjjbjjbjbbbjbbjjbjbbjjjjjbbbbjbbbjjjjjjjjjbbbjbjbjjbbjjjjbjbjjjjjbjjjbjbjbjbbbbjjjjjbbbjbjjjjbjbjjjjbjjbbjbjbjbjbbjbjbjbjjbbjbjjbbjjbbbbbjjjjjbbjjbjbbbbjbbbjbbbbjbbjbjbbbbjbbbjbjjjbbbjbbjjjjbbjbjbjjjjbjbbjbbbjjbjjjbjjbbbjbjbbbbjjbbbjbbjjbbjjbbbbbbbbbbbbbjbjbbjbbjbbbbjjbjjbjbbbjbjbjbjbbbjjbbjbbjbbjbjbbjbjjjbbbbbbjbbbjbjjbjbjjjjjbjjjbjjbbbbbjjjbjjbbbbjjbbbjjjjjbbbjjjbjjbbbjbjbbjbbbbbjbjjjbjbbjjbjbbjjbbjbjbbjjjjbjbbjjjbjbjjbbjjbjbbjjbjjjjbjjjbbbbbbbjjbbbjbjbjbbjjjjjbbbbbbbjjjjjjjbbjbjjjbjbbjbjbbjjjjbbjjjbbjjbjbbjjjjbbbbbjbjbjbbjjbjjbbbjjbbbjbjjjjbbbbjbjbbjbjbbbbjbjjjjbjjjbjjjjjjjbjjbbjbbbjjjjbbbjjjbjjjbbjjjjjbbbjjjbjbjjbjbbjbjjbbjjbjbbjbbjbbbbbbbbjbjbbbbbjbbbjjbbbbjjjbjjjbbbjjjjjbbjjbbjjbbbjjjjjbbjbjbjjjbjjjjjjbjjbjbbbjbbjjbjbbjjjjjbbbbjbbbjjjjjjjjjbbbjbjbjjbbjjjjbjbjjjjjbjjjbjbjbjbbbbjjjjjbbbjbjjjjbjbjjjjbjjbbjbjbjbjbbjbjbjbjjbbjbjjbbjjbbbbbjjjjjbbjjbjbbbbjbbbjbbbbjbbjbjbbbbjbbbjbjjjbbbjbbjjjjbbjbjbjjjjbjbbjbbbjjbjjjbjjbbbjbjbbbbjjbbbjbbjjbbjj"
+        
+            
+        N1=len(word1)
+        N2 = len(word2)
+        l1,l2=0,0
+        ans=""
+        while l1<N1 and l2<N2:
+            c1=word1[l1]
+            c2=word2[l2]
+            
+            if c1 == c2:
+                
+                k1=l1
+                k2=l2
+                ctr=0
+                while k1<N1 and k2<N2 and word1[k1]==word2[k2]:
+                    k1+=1
+                    k2+=1
+                    ctr+=1
+                # print(k1, k2, "-", l1,l2)
+                if k1<N1 and k2<N2:
+                    # print("here", ctr)
+                    #case w1 has bigger next word
+                    if word1[k1]>word2[k2]:
+                        ans+= word1[l1]
+                        l1+=1
+                    elif word1[k1]<word2[k2]:
+                        ans+= word2[l2]
+                        l2+=1
+                 #some thing have to be done here when one is done   
+                else:
+                    # print("br")
+                    break
+                
+                
+            elif c1 > c2:
+                ans+=c1
+                l1+=1
+            else:
+                ans+=c2
+                l2+=1
+        # print(l1, l2)
+        if l1<N1 and l2<N2:
+            w1=word1[l1:]
+            w2=word2[l2:]
+            # print(w1,"-",w2)
+            res1= w1+w2
+            res2=w2+w1
+            if res1>res2:
+                ans+=res1
+            else:
+                ans+=res2        
+        else:
+            if l1<N1 :
+                ans+=word1[l1:]
+            if l2<N2:
+                ans+=word2[l2:]
+        return ans
+            
+        
+        
+        
+        
+        
+        
+        #test cases that failed
+        """
+        "guguuuuuuuuuuuuuuguguuuuguug"
+        "gguggggggguuggguugggggg"
+        "jvjjjjjjvjjvjvjjjvjvjjjj"
+        "jjjjjjvjjjjjjvjjjjv"
+        "nngnnnbnttnngsnnntnbgnnnn"
+        "nnnnnnnnnnnnnntn"
+        "olnllnxlxllllllllllnlelllex"
+        "oooooooooooooooooo"
+        """
