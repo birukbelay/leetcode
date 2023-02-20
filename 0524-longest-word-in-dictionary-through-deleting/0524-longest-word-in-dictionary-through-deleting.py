@@ -18,23 +18,29 @@ class Solution:
                     l1+=1
             if l2!=len(j):
                 continue
-            # counting the length of j 
-            temp = Counter(list(j))
-            ctr=0
-            brk=True
-            for k,v in temp.items():
-                
-                if k in d and v<= d[k]:
-                    ctr+=v
-                else:
-                    brk=False
-                    break
-            if brk:
-                if ctr>maxCtr:
-                    maxCtr=ctr
+            else:
+                if len(j)>maxCtr:
+                    maxCtr=len(j)
                     arr=[j]
-                elif ctr==maxCtr:
+                elif len(j)==maxCtr:
                     arr.append(j)
+            # counting the length of j 
+#             temp = Counter(list(j))
+#             ctr=0
+#             brk=True
+#             for k,v in temp.items():
+                
+#                 if k in d and v<= d[k]:
+#                     ctr+=v
+#                 else:
+#                     brk=False
+#                     break
+#             if brk:
+#                 if ctr>maxCtr:
+#                     maxCtr=ctr
+#                     arr=[j]
+#                 elif ctr==maxCtr:
+#                     arr.append(j)
         
         if arr:
             arr.sort()
