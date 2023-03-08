@@ -1,4 +1,4 @@
-class Solution:
+class Solution:#9min
     def maximumPopulation(self, logs: List[List[int]]) -> int:
         empt=[0] *(2050-1950+1)
         
