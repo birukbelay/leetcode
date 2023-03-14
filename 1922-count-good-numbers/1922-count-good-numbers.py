@@ -21,13 +21,13 @@ def karatsuba(x,y):
 		return prod
 class Solution:
     def countGoodNumbers(self, n: int) -> int:
-        return (pow(5,ceil(n/2),1000_000_007) * pow(4,floor(n/2),1000_000_007))% 1000_000_007
+        # return (pow(5,ceil(n/2),1000_000_007) * pow(4,floor(n/2),1000_000_007) )% 1000_000_007
         # 4 ! @ odd indexes
         # 5 ! @ even incexes
         mod=10**9 + 7
         half=n//2
         if n%2==0:           
                         
-            return karatsuba(4**half,5**half)%mod
+            return ( pow(4,half, 1000_000_007)* pow(5,half, 1000_000_007) )%1000_000_007
         else:            
-            return (karatsuba(4**half,5**half) *5)%mod
+            return ( pow(4,half, 1000_000_007)* pow(5,half+1, 1000_000_007) )%1000_000_007
