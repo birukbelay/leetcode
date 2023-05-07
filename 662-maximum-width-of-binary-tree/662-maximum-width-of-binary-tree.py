@@ -25,7 +25,7 @@ class Solution:
         
         tup= self.d.get( level, [float('inf'), float('-inf')])
         
-        self.d[level]=(min(tup[0], index), max(tup[1], index))
+        self.d[level]=[min(tup[0], index), max(tup[1], index)]
         
         # max of maxN & width at this levl ( d/f b/n width at this level)
         self.maxN= max(self.maxN, self.d[level][1]-self.d[level][0] +1)
