@@ -8,7 +8,7 @@ class Solution:
     def __init__(self):
         self.d={}
         self.maxN= 0
-        self.maxTup=(sys.maxsize, -sys.maxsize)
+        
     def widthOfBinaryTree(self, root: Optional[TreeNode], level=0) -> int:
         
         
@@ -23,10 +23,11 @@ class Solution:
         if not root:
             return
         
-        tup= self.d.get( level, (float('inf'), float('-inf')))
+        tup= self.d.get( level, [float('inf'), float('-inf')])
         
         self.d[level]=(min(tup[0], index), max(tup[1], index))
-        # self.maxTup=(min())
+        
+        # max of maxN & width at this levl ( d/f b/n width at this level)
         self.maxN= max(self.maxN, self.d[level][1]-self.d[level][0] +1)
         
         self.width(root.left, level+1, index*2)
